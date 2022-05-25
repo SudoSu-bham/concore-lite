@@ -77,11 +77,15 @@ $ cd /concore-lite/sampleplot/CZ;python3 controller.py
 ```
 
 ## View the output
+The below plot will pop up, showing the output from this example.
+
 ![The output plot](fig/Figure_1.png)
 
 
 # Destroy the study.
+Finally, you can destroy the study, after closing those terminals and windows.
 ```
+$ cd ..
 $ ./destroy sampleplot/
 cat: CZ/concorepid: No such file or directory
 kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
