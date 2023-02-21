@@ -100,6 +100,19 @@ rm: CU/*: No such file or directory
 rm: PYM/*: No such file or directory
 rm: XYM/*: No such file or directory
 ```
+## To Run On Windows
+
+Replace './COMMAND' by 'COMMAND'
+Example :
+Instead of calling 
+```
+$ ./makestudy example/sampleplot.graphml
+```
+call
+```
+> makestudy example/sampleplot.graphml
+```
+
 
 # Read More...
 
