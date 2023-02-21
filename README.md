@@ -102,7 +102,7 @@ rm: XYM/*: No such file or directory
 ```
 ## To Run On Windows
 
-Replace './COMMAND' by 'COMMAND'
+Replace './COMMAND' by 'COMMAND'.
 Example :
 Instead of calling 
 ```
