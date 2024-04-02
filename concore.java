@@ -208,7 +208,8 @@ public class concore {
     //Initializing
     public static ArrayList<Double> initval(String simtimeVal) {
         //parsing
-        ArrayList<Double> val = new ArrayList<>();
+        ArrayList<Double> val = parser(simtimeVal);
+        
 
         //determining simtime
         simtime = val.get(0);
